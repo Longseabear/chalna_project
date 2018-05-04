@@ -208,6 +208,9 @@ public class MainActivity extends AppCompatActivity
     }
 
     public boolean onTakePicture(View v) {
+        Mat a;
+        Opencv
+
         Log.d(TAG,"onTouch event");
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
         String currentDateandTime = sdf.format(new Date());
